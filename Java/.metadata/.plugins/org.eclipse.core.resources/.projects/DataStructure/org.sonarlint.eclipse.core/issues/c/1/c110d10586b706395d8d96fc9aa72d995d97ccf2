@@ -1,28 +1,0 @@
-
-qsquid:S1155#">Use isEmpty() to check whether the collection is empty or not.(ªŠÖ	8µ¡º»Û-HÕRMINORZ
-CODE_SMELL
-q
-squid:S106"9Replace this use of System.out or System.err by a logger.(‘Ûÿÿÿÿÿ8ÑÜ»Û-HÓRMAJORZ
-CODE_SMELL
-squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥”¡«8¿ïóºÛ-HËRMINORZ
-CODE_SMELL
-squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(œ£îˆ8¯™ôºÛ-HÎRMINORZ
-CODE_SMELL
-q
-squid:S106-"9Replace this use of System.out or System.err by a logger.(áä¼ùÿÿÿÿ8ŞÍÆ»Û-HÖRMAJORZ
-CODE_SMELL
-q
-squid:S106."9Replace this use of System.out or System.err by a logger.(áä¼ùÿÿÿÿ8ŞÍÆ»Û-H×RMAJORZ
-CODE_SMELL
-q
-squid:S106/"9Replace this use of System.out or System.err by a logger.(áä¼ùÿÿÿÿ8ŞÍÆ»Û-HØRMAJORZ
-CODE_SMELL
-q
-squid:S1060"9Replace this use of System.out or System.err by a logger.(áä¼ùÿÿÿÿ8ŞÍÆ»Û-HÙRMAJORZ
-CODE_SMELL
-q
-squid:S1061"9Replace this use of System.out or System.err by a logger.(áä¼ùÿÿÿÿ8ŞÍÆ»Û-HÚRMAJORZ
-CODE_SMELL
-q
-squid:S1062"9Replace this use of System.out or System.err by a logger.(áä¼ùÿÿÿÿ8ŞÍÆ»Û-HÛRMAJORZ
-CODE_SMELL

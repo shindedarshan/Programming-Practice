@@ -1,0 +1,26 @@
+package Support;
+
+import java.util.Iterator;
+
+public class ListIteratorUsingLinkedList implements Iterator {
+	
+	ListNode curNode;
+	
+	public ListIteratorUsingLinkedList (ListNode node) {
+		this.curNode = node;
+	}
+
+	@Override
+	public boolean hasNext() {
+		if (this.curNode != null) return true;
+		return false;
+	}
+
+	@Override
+	public Object next() {
+		int val = curNode.val;
+		curNode = curNode.next;
+		return val;
+	}
+
+}

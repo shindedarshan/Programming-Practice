@@ -1,0 +1,14 @@
+package QuickUnionFind;
+
+public class UnionFind {
+	int[] list;
+	
+	public UnionFind(int n) {
+		this.list = new int[n];
+		for (int i = 0; i < n; i++) this.list[i] = i;
+	}
+	
+	public boolean find(int s, int t) {
+		return this.list[s] == this.list[t];
+	}
+}

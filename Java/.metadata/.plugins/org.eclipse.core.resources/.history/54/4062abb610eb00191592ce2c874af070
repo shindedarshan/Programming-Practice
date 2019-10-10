@@ -1,0 +1,16 @@
+
+public class StackUsingLinkedList {
+	
+	public void push(int data) {
+		
+	}
+	
+	public int pop() {
+		return -1;
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

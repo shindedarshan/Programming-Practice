@@ -1,0 +1,48 @@
+package queue;
+
+import Support.ListNode;
+
+public class QueueUsingLinkedList {
+	
+	ListNode start;
+	ListNode end;
+	
+	public QueueUsingLinkedList() {
+		this.start = null;
+		this.end = null;
+	}
+	
+	public void enQueue(int data) {
+		ListNode node = new ListNode(data);
+		if (isEmpty()) {
+			start = node;
+			end = start;
+		}
+		else {
+			end.next = node;
+			end = end.next;
+		}
+	}
+	public int deQueue() {
+		if (isEmpty()) {
+			System.out.println("Underflow: Queue is empty.");
+			return -1;
+		}
+		else {
+			int data = start.val;
+			start = start.next;
+			return data;
+		}
+	}
+	public boolean isEmpty() {
+		return false;
+	}
+	public int size() {
+		return 0;
+	}
+
+	public static void main(String[] args) {
+		QueueUsingLinkedList o = new QueueUsingLinkedList();
+	}
+
+}

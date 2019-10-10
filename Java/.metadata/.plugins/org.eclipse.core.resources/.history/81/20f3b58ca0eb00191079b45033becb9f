@@ -1,0 +1,30 @@
+package queue;
+
+import java.util.Stack;
+
+public class QueueUsingStack {
+	Stack<String> enQ;
+	Stack<String> deQ;
+	
+	public QueueUsingStack() {
+		enQ = new Stack<String>();
+		deQ = new Stack<String>();
+	}
+	
+	public void enQueue(String s) {
+		
+	}
+	
+	public String deQueue() {
+		return "";
+	}
+	
+	public boolean isEmpty() {
+		return false;
+	}
+	
+	public static void main(String[] args) {
+
+	}
+
+}

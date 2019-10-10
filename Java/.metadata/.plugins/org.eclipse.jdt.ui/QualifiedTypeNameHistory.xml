@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="StackUsingLinkedList"/>
+<fullyQualifiedTypeName name="Support.ListIteratorUsingLinkedList"/>
+<fullyQualifiedTypeName name="QuickUnionFind.UnionFind"/>
+<fullyQualifiedTypeName name="QuickUnionFind.QuickUnion"/>
+<fullyQualifiedTypeName name="ArithmeticCalculation"/>
+<fullyQualifiedTypeName name="QuickUnionFind.QuickUnionWithImprovement"/>
+<fullyQualifiedTypeName name="java.net.ConnectException"/>
+<fullyQualifiedTypeName name="queue.QueueUsingLinkedList"/>
+<fullyQualifiedTypeName name="Support.ListNode"/>
+<fullyQualifiedTypeName name="queue.QueueUsingArray"/>
+<fullyQualifiedTypeName name="java.util.Queue"/>
+<fullyQualifiedTypeName name="stack.StackUsingArray"/>
+<fullyQualifiedTypeName name="stack.StackUsingQueue"/>
+<fullyQualifiedTypeName name="java.util.Stack"/>
+<fullyQualifiedTypeName name="queue.QueueUsingStack"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,28 @@
+package stack;
+
+public class StackUsingArray {
+	
+	int[] list;
+	int n = 0;
+	
+	public StackUsingArray () {
+		this.list = new int[1];
+	}
+	
+	public void push() {
+		
+	}
+	
+	public void pop() {
+		
+	}
+	
+	public boolean isEmpty() {
+		if (n == 0) return true;
+		return false;
+	}
+	
+	public int peek() {
+		return -1;
+	}
+}

@@ -1,0 +1,14 @@
+
+q
+squid:S106""9Replace this use of System.out or System.err by a logger.(îİöøÿÿÿÿ8ö ´±Û-HØRMAJORZ
+CODE_SMELL
+„squid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(î…ŞÛ8É®™±Û-HÔRMAJORZ
+CODE_SMELL
+„squid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(½âåÉ8É®™±Û-HÕRMAJORZ
+CODE_SMELL
+Tsquid:S3626"Remove this redundant jump.(ÛÉÔÖüÿÿÿÿ8¤ßĞ±Û-HÜRMINORZ
+CODE_SMELL
+Îsquid:S1598"‘This file "ArithmeticCalculation.java" should be located in "Arithmetic" directory, not in "F:\Study\Practise\Amazon\Practice\DataStructure\src".(ÚÓèÂüÿÿÿÿ8™Ï›²Û-HëRCRITICALZ
+CODE_SMELL
+”squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÚÓèÂüÿÿÿÿ8™Ï›²Û-HìRMINORZ
+CODE_SMELL

@@ -1,0 +1,24 @@
+import Support.ListNode;
+
+public class StackUsingLinkedList {
+	
+	ListNode top = null;
+	
+	public void push(int data) {
+		ListNode node = new ListNode(data);
+		if (top == null) top = node;
+		else {
+			node.next = top;
+			top = node;
+		}
+	}
+	
+	public int pop() {
+		return -1;
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

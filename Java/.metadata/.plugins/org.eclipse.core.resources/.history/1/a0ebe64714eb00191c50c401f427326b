@@ -1,0 +1,55 @@
+import java.util.Iterator;
+
+import Support.ListIterator;
+import Support.ListNode;
+
+public class StackUsingLinkedList implements Iterable {
+	
+	ListNode top;
+	
+	public StackUsingLinkedList() {
+		this.top = null;
+	}
+	
+	public void push(int data) {
+		ListNode node = new ListNode(data);
+		if (top == null) top = node;
+		else {
+			node.next = top;
+			top = node;
+		}
+	}
+	
+	public void pop() {
+		if (!isEmpty()) {
+			top = top.next;
+		}
+		return;
+	}
+	
+	public boolean isEmpty() {
+		if (this.top == null) return true;
+		return false;
+	}
+	
+	public int peek() {
+		int val = -1;
+		if (isEmpty()) {
+			System.out.println("Underflow: List in empty.");
+			return val;	
+		}
+		else {
+			return top.val;
+		}
+	}
+
+	@Override
+	public Iterator<ListNode> iterator() {
+		return new ListIterator(this.top);
+	}
+	
+	public static void main(String[] args) {
+
+	}
+
+}

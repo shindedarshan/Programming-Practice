@@ -1,0 +1,37 @@
+import java.util.Iterator;
+
+import Support.ListNode;
+
+public class StackUsingLinkedList implements Iterable {
+	
+	ListNode top = null;
+	
+	public void push(int data) {
+		ListNode node = new ListNode(data);
+		if (top == null) top = node;
+		else {
+			node.next = top;
+			top = node;
+		}
+	}
+	
+	public void pop() {
+		int val = -1;
+		if (top != null) {
+			val = top.val;
+			top = top.next;
+		}
+		return;
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+	@Override
+	public Iterator iterator() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

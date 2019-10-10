@@ -1,0 +1,33 @@
+package queue;
+
+public class QueueUsingArray {
+	
+	int[] queue;
+	int start = -1;
+	int end = -1;
+	
+	public QueueUsingArray(int n) {
+		this.queue = new int[n];
+	}
+	
+	public void enQueue(int data) {
+		
+	}
+	
+	public int deQueue() {
+		return -1;
+	}
+	
+	public boolean isEmpty() {
+		return false;
+	}
+	
+	public itn size() {
+		return -1;
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

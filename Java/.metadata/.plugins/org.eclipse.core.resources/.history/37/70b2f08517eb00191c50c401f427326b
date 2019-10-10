@@ -1,0 +1,21 @@
+package stack;
+
+import java.util.Iterator;
+
+public class ListIteratorUsingArray implements Iterator {
+	
+	public public ListIteratorUsingArray(int[] list, int n, int curr) {
+
+	}
+
+	@Override
+	public boolean hasNext() {
+		return false;
+	}
+
+	@Override
+	public Object next() {
+		return null;
+	}
+
+}

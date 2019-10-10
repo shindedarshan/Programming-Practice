@@ -1,0 +1,25 @@
+package stack;
+
+public class StackUsingQueue {
+	
+	public StackUsingQueue() {
+		this.enQueue = new Queue<String>();
+		this.deQueue = new Queue<String>();
+	}
+	public void push(int data) {
+		
+	}
+	
+	public int pop() {
+		return -1;
+	}
+	
+	public boolean isEmpty() {
+		return false;
+	}
+	
+	public static void main(String[] args) {
+
+	}
+
+}

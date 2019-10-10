@@ -1,0 +1,21 @@
+package queue;
+
+public class QueueUsingLinkedList {
+	public void enQueue(String s) {
+		
+	}
+	public String deQueue() {
+		return "";
+	}
+	public boolean isEmpty() {
+		return false;
+	}
+	public int size() {
+		return 0;
+	}
+
+	public static void main(String[] args) {
+		QueueUsingLinkedList o = new QueueUsingLinkedList();
+	}
+
+}

@@ -1,0 +1,24 @@
+package queue;
+
+import java.util.Iterator;
+
+import Support.ListNode;
+
+public class QueueIteratorUsingLinkedList implements Iterator {
+	
+	ListNode start;
+	public QueueIteratorUsingLinkedList(ListNode start) {
+		this.start = start;
+	}
+
+	@Override
+	public boolean hasNext() {
+		return false;
+	}
+
+	@Override
+	public Object next() {
+		return null;
+	}
+
+}

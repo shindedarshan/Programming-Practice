@@ -1,0 +1,6 @@
+
+ysquid:S2272"NAdd a "NoSuchElementException" for iteration beyond the end of the collection.(«ŞÄ•ùÿÿÿÿHˆRMINORZBUG
+ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Å’“HŠRMINORZ
+CODE_SMELL
+nsquid:S1126"AReplace this if-then-else statement by a single return statement.(†­û»H‰RMINORZ
+CODE_SMELL

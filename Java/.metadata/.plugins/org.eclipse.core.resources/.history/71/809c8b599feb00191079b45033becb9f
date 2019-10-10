@@ -1,0 +1,35 @@
+package stack;
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class StackUsingQueue {
+	
+	Queue<String> enQueue;
+	Queue<String> deQueue;
+	
+	public StackUsingQueue() {
+		this.enQueue = new LinkedList<String>();
+		this.deQueue = new LinkedList<String>();
+	}
+	
+	public void push(String data) {
+		this.enQueue.add(data);
+	}
+	
+	public String pop() {
+		if (this.enQueue.size() > 0) return enQueue.remove();
+		else {
+			System.out.println("Underflow: Stack is empty.");
+			return "";
+		}
+	}
+	
+	public boolean isEmpty() {
+		return false;
+	}
+	
+	public static void main(String[] args) {
+
+	}
+
+}

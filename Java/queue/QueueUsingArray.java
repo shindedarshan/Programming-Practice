@@ -2,7 +2,7 @@ package queue;
 
 import java.util.Iterator;
 
-public class QueueUsingArray implements Iterable {
+public class QueueUsingArray implements Iterable<Integer> {
 	
 	int[] queue;
 	int end = -1;
@@ -68,11 +68,11 @@ public class QueueUsingArray implements Iterable {
 	}
 	
 	@Override
-	public Iterator iterator() {
+	public Iterator<Integer> iterator() {
 		return new QueueItertorUsingArray(this.queue, this.end);
 	}
 	
-	public class QueueItertorUsingArray implements Iterator {
+	public class QueueItertorUsingArray implements Iterator<Integer> {
 		int[] queueArr;
 		int endIndex;
 		int cur = 0;
@@ -88,7 +88,7 @@ public class QueueUsingArray implements Iterable {
 		}
 
 		@Override
-		public Object next() {
+		public Integer next() {
 			int data =  this.queueArr[this.cur];
 			this.cur++;
 			return data;
@@ -104,7 +104,7 @@ public class QueueUsingArray implements Iterable {
 		o.enQueue(15);
 		System.out.println(o.size());
 		System.out.println(o.isEmpty());
-		Iterator it = o.iterator();
+		Iterator<Integer> it = o.iterator();
 		while (it.hasNext()) System.out.println(it.next());
 		o.deQueue();
 		o.deQueue();

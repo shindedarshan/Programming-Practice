@@ -4,7 +4,7 @@ import java.util.Iterator;
 
 import support.ListNode;
 
-public class StackIteratorUsingLinkedList implements Iterator {
+public class StackIteratorUsingLinkedList implements Iterator<Integer> {
 	
 	ListNode curNode;
 	
@@ -19,7 +19,7 @@ public class StackIteratorUsingLinkedList implements Iterator {
 	}
 
 	@Override
-	public Object next() {
+	public Integer next() {
 		int val = curNode.val;
 		curNode = curNode.next;
 		return val;

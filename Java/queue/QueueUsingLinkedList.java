@@ -4,7 +4,7 @@ import java.util.Iterator;
 
 import support.ListNode;
 
-public class QueueUsingLinkedList implements Iterable {
+public class QueueUsingLinkedList implements Iterable<Integer> {
 	
 	ListNode start;
 	ListNode end;
@@ -62,7 +62,7 @@ public class QueueUsingLinkedList implements Iterable {
 	}
 	
 	@Override
-	public Iterator iterator() {
+	public Iterator<Integer> iterator() {
 		return new QueueIteratorUsingLinkedList(start);
 	}
 
@@ -78,7 +78,7 @@ public class QueueUsingLinkedList implements Iterable {
 		o.deQueue();
 		o.deQueue();
 		System.out.println(o.size());
-		Iterator it = o.iterator();
+		Iterator<Integer> it = o.iterator();
 		while (it.hasNext()) {
 			System.out.println(it.next());
 		}

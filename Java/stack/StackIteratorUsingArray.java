@@ -2,7 +2,7 @@ package stack;
 
 import java.util.Iterator;
 
-public class StackIteratorUsingArray implements Iterator {
+public class StackIteratorUsingArray implements Iterator<Integer> {
 	int[] list;
 	int n, curr;
 	
@@ -18,7 +18,7 @@ public class StackIteratorUsingArray implements Iterator {
 	}
 
 	@Override
-	public Object next() {
+	public Integer next() {
 		int val = this.list[this.curr];
 		this.curr--;
 		return val;

@@ -1,7 +1,5 @@
 package unionFind;
 
-import java.net.ConnectException;
-
 public class QuickUnionWithImprovement {
 	int[] list, size;
 	

@@ -2,7 +2,7 @@ package stack;
 
 import java.util.Iterator;
 
-public class StackUsingArray implements Iterable{
+public class StackUsingArray implements Iterable<Integer>{
 	
 	int[] list;
 	int n = -1;
@@ -46,7 +46,7 @@ public class StackUsingArray implements Iterable{
 	}
 
 	@Override
-	public Iterator iterator() {
+	public Iterator<Integer> iterator() {
 		return new StackIteratorUsingArray(this.list, n);
 	}
 	
